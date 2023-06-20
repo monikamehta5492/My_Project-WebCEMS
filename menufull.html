@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+<title>AgentsCanteen</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Amatic+SC">
+
+
+	<title>AgentsCanteen</title>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	<!-- <meta http-equiv="refresh" content="1"> -->
+
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+	<link href="https://fonts.googleapis.com/css?family=Pacifico&display=swap" rel="stylesheet">
+
+	<link href="https://fonts.googleapis.com/css?family=Bree+Serif&display=swap" rel="stylesheet">
+
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+	<link rel="stylesheet" href="css/style.css">
+
+
+
+<body>
+
+<!------------------navebar--------------------!>
+<section class="fnavbar">
+		<div class="navbar-fixed">
+		<nav>
+		    <div class="nav-wrapper">
+		      <a href="#" class="brand-logo">AgentsCanteen</a>
+		      <a href="#" data-target="mobile-demo"                        class="sidenav-trigger">
+<i class="material-icons">menu</i></a>
+		      <ul class="right hide-on-med-and-down">
+	<li><a href="banner2.html" class="hvr-grow">  Home</a></li>
+<li><a href="menufull.html" class="hvr-grow">Menu Available</a></li>
+<li><a href="allemployees.html" class="hvr-grow">Employee Details</a></li>
+		        
+		              
+		      </ul>
+		    </div>
+		  </nav>
+		</div>
+
+		  <ul class="sidenav" id="mobile-demo">
+		    <li><a href="banner2.html">Home</a></li>
+
+	        
+		  </ul>
+	</section>
+
+
+<!----------------------end--------------------------!>
+  
+
+<!-- Menu Container -->
+<div class="w3-container w3-white w3-padding-64 w3-xxlarge" id="menu">
+  <div class="w3-content">
+  
+    <h3 class="w3-center w3-jumbo" style="margin-bottom:64px"><center><h4>THE MENU</h4></center></h3>
+    <div class="w3-row w3-center w3-border w3-border-dark-grey">
+      <a href="javascript:void(0)" onclick="openMenu(event, 'Veg Full');" id="myLink">
+        <div class="w3-col s4 tablink w3-padding-large w3-hover-grey"><h5>Veg Full</h5>
+<img src="images/img2.jpg" width=300 height=200></div>
+      </a>
+      <a href="javascript:void(0)" onclick="openMenu(event, 'Non-Veg Full');">
+        <div class="w3-col s4 tablink w3-padding-large w3-hover-grey"><h5>Non-Veg Full</h5>
+<img src="images/img4.jpg" width=300 height=200></div>
+      </a>
+      <a href="javascript:void(0)" onclick="openMenu(event, 'Breakfast full');">
+        <div class="w3-col s4 tablink w3-padding-large w3-hover-grey"> <h5>Breakfast full</h5>
+<img src="images/img6.jpg" width=300 height=200></div>
+      </a>
+    </div>
+
+    <div id="Veg Full" class="w3-container menu w3-padding-32 w3-white">
+<center><h5> Rate 100 Rs/- per day</h5></center>
+      <h6><b>Potato Curry,salad,Rice,Roti,Cucumber Raita</b> <span class="w3-right w3-tag w3-dark-grey w3-round">Monday</span></h6>
+           <hr>
+   
+      <h6><b>Chana Paneer Masala,Dry Cauliflower Sabji,cucumber,Roti,rice,Yogurt</b> <span class="w3-right w3-tag w3-dark-grey w3-round">Tuesday</span></h6>
+     
+      <hr>
+      
+      <h6><b>Karela Aloo Sabji, Kali dal,Amras,Roti,Rice,Masala Lassi</b> <span class="w3-right w3-tag w3-dark-grey w3-round">Wednesday</span></h6>
+           <hr>
+
+      <h6><b>Palak Paneer,White Matar dal,Jeera rice,Roti,salad,Yogurt</b> <span class="w3-right w3-tag w3-dark-grey w3-round">Thursday</span></h6>
+         <hr>
+
+      <h6><b>Baigan Aloo,Dal Fry,rice,roti,salad,yogurt</b> <span class="w3-right w3-tag w3-dark-grey w3-round">Friday</span></h6>
+           <hr>
+
+      <h6><b>Aloo Matar, Spinach Moong Dal,Jeera Rice,Boodi Raita.Roti</b> <span class="w3-right w3-tag w3-dark-grey w3-round">Saturday</span></h6>
+     </div>
+
+    <div id="Non-Veg Full" class="w3-container menu w3-padding-32 w3-white">
+<center><h5> Rate 150 Rs/- per Person</h5></center>
+      <h6><b> Spicy Chicken Curry</b>  <span class="w3-right w3-tag w3-dark-grey w3-round">Monday</span></h6>
+           <hr>
+   
+      <h6><b>Keema Matar</b> <span class="w3-right w3-tag w3-dark-grey w3-round">Tuesday</span></h6>
+        <hr>
+      
+      <h6><b>Egg Curry</b> <span class="w3-right w3-tag w3-dark-grey w3-round">Wednesday</span></h6>
+     
+      <hr>
+
+      <h6><b>Mutton Curry</b> <span class="w3-right w3-tag w3-dark-grey w3-round">Thursday</span></h6>
+<hr>
+<h6><b>Fish Fry</b> <span class="w3-right w3-tag w3-dark-grey w3-round">Friday</span></h6>
+     
+      <hr>
+
+     <h6><b>Egg Curry</b> <span class="w3-right w3-tag w3-dark-grey w3-round">Saturday</span></h6>
+    
+
+        </div>
+
+
+    <div id="Breakfast full" class="w3-container menu w3-padding-32 w3-white">
+      <center><h5> Rate 30 Rs/- per Person</h5></center>
+      <h6><b> Onion Poha</b>  <span class="w3-right w3-tag w3-dark-grey w3-round">Monday</span></h6>
+           <hr>
+   
+      <h6><b>Aloo Paratha</b> <span class="w3-right w3-tag w3-dark-grey w3-round">Tuesday</span></h6>
+        <hr>
+      
+      <h6><b>Rava Upma</b> <span class="w3-right w3-tag w3-dark-grey w3-round">Wednesday</span></h6>
+     
+      <hr>
+
+      <h6><b>Idli Sambar</b> <span class="w3-right w3-tag w3-dark-grey w3-round">Thursday</span></h6>
+<hr>
+<h6><b>Fish Fry</b> <span class="w3-right w3-tag w3-dark-grey w3-round">Friday</span></h6>
+     
+      <hr>
+
+     <h6><b>Chole- Bhature</b> <span class="w3-right w3-tag w3-dark-grey w3-round">Saturday</span></h6>
+    
+ </div><br>
+
+  </div>
+</div>
+
+
+<script>
+// Tabbed Menu
+function openMenu(evt, menuName) {
+  var i, x, tablinks;
+  x = document.getElementsByClassName("menu");
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablink");
+  for (i = 0; i < x.length; i++) {
+     tablinks[i].className = tablinks[i].className.replace(" w3-red", "");
+  }
+  document.getElementById(menuName).style.display = "block";
+  evt.currentTarget.firstElementChild.className += " w3-red";
+}
+document.getElementById("myLink").click();
+</script>
+
+</body>
+</html>
